@@ -4,6 +4,16 @@
 
 struct Plage;
 struct Montagne;
+struct Piscine{
+	char Description[64];
+	int GainOr;
+	int GainVie;
+}
+struct Hotel{
+	char Description[64];
+	int GainOr;
+	int GainVie;
+}
 
 int choix;
 
